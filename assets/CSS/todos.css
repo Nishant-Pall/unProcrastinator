@@ -1,12 +1,12 @@
 body {
 	font-family: Roboto;
-	background: #2BC0E4;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #f12711;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
-	background:#2980b9;
+	background:#6600FF;
 	color:white;
 	margin:0;
 	padding:10px 20px;
@@ -32,7 +32,7 @@ li:nth-child(2n) {
 }
 
 input {
-	color:#2980b9;
+	color:#6600FF;
 	font-size: 18px;
 	background-color: #f7f7f7;
 	width:100%;
@@ -43,7 +43,7 @@ input {
 
 input:focus {
 	background:#fff;
-	border:3px solid #2980b9;
+	border:3px solid #6600FF;
 	outline:none;
 }
 
