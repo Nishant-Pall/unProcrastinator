@@ -12,12 +12,16 @@ $('ul').on('click', 'span',function(event){
 	event.stopPropagation();//to prevent bubbling of events
 });
 
-$("input[type='text'").keypress(function(event){
+$("input[type='text']").keypress(function(event){
 	if(event.which === 13){
 		// grabbing new todo text from input
 		var todoText = $(this).val();
 		$(this).val("");
 		// create new li and add it to ul
-		$('ul').append("<li><span><i class='fa fa-trash' aria-hidden="true"></i></span> " + todoText + "</li>")
+		$('ul').append("<li><span><i class='fa fa-trash'></i></span> " + todoText + "</li>");
 	}
+});
+
+$(".fa-plus").click(function(){
+	$("input[type='text']").fadeToggle();
 });
